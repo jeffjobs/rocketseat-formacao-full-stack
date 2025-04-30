@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-family: "Alice", serif;
+  line-height:150%;
+  color: #573A37;
+}
+
 body {
   background-image: url(assets/bg-image.jpg);
   background-size: cover;
@@ -17,4 +23,17 @@ body {
 
 #page img {
   border-radius: 16px;
+}
+
+main h1 {
+  line-height: 140%;
+  font-size: 40px;
+}
+
+main h2 {
+  font-size: 24px;
+}
+
+main h1, main h2 {
+  color: #291B1A;
 }
