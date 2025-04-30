@@ -11,7 +11,9 @@
 }
 
 body {
-  background-image: url(assets/bg-image.jpg);
+  background-image:
+    linear-gradient(rgba(87, 56, 36, 0.7), rgba(87, 56, 36, 0.7)),
+    url(assets/bg-image.jpg);
   background-size: cover;
 }
 
@@ -34,17 +36,21 @@ main {
 main h1 {
   font-size: 40px;
   margin-bottom: 4px;
-  line-height: 140px;
+  line-height: 140%;
 }
 
 main h2 {
   font-size: 24px;
+  line-height: 150%;
 }
 
 main h1, main h2 {
   color: #291B1A;
   margin-bottom: 4px;
-  line-height: 150%;
+}
+
+main p {
+  font-size: 16px;
 }
 
 section + section {
